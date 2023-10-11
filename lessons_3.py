@@ -1,4 +1,4 @@
-# Bool, None types
+## Bool, None types
 # Logic operators
 # Зведення типів
 # Duck typing
