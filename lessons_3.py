@@ -109,11 +109,49 @@
 # else:
 #     value_1 = 0
 
-value_int_1 = input("Please type a number: ")
-value_int_2 = input("Please type another number: ")
-value_operator = input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \nYour answer: ")
+#value_int_1 = input("Please type a number: ")
+#value_int_2 = input("Please type another number: ")
+#value_operator = input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \nYour answer: ")
+
+#if value_operator == "1":
+#    result = value_int_1 + value_int_2
+
+#print(resul
+
+try:
+ #while True:
+  value_int_1 = int(input("Please_type_a_number: "))
+
+except ValueError:
+ while True:
+  value_int_1 = int(input("It should be a number: "))
+
+#if "Please aaaa number: " == str:
+ #then = value_int_1 = int(input("Please type a number: "))
+#print("It should be a number")
+
+
+#then = value_int_1 = int(input("Please type a number: "))
+try:
+ value_int_2 = int(input("Please_type_another_number: "))
+
+except ValueError:
+    Please_type_another_number = value_int_2 = int(input("It should be a number: "))
+
+value_operator = input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \n Your answer: ")
+
 
 if value_operator == "1":
-    result = value_int_1 + value_int_2
+  result = value_int_1 + value_int_2
 
+elif value_operator == "2":
+ result = value_int_1 - value_int_2
+
+elif value_operator == "3":
+  result = value_int_1 * value_int_2
+
+elif value_operator == "4":
+  result = value_int_1 / value_int_2
 print(result)
+errno
+ывавы
