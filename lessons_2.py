@@ -41,19 +41,20 @@ MONTHS_IN_YEAR = 12
 
 ################################################################################
 
-num_1 = 9
-num_2 = 2
+num_1 = 123
+num_2 = 10
 
-result_add = num_1 + num_2
-result_sub = num_1 - num_2
-result_mul = num_1 * num_2
-result_div = num_1 / num_2
-result_div_2 = num_1 // num_2 # цілочислене ділення
+# result_add = num_1 + num_2
+# result_sub = num_1 - num_2
+# result_mul = num_1 * num_2
+# result_div = num_1 / num_2
+# result_div_2 = num_1 // num_2 # цілочислене ділення
 result_div_3 = num_1 % num_2 # залишок ділення
-result_power = num_1 ** num_2 # зведення в ступінь
-result_root = num_1 ** 0.5 # корінь
+# result_power = num_1 ** num_2 # зведення в ступінь
+# result_root = num_1 ** 0.5 # корінь
 
 # print(result_root, type(result_root))
+print(result_div_3)
 
 
 ################################################################################
@@ -67,8 +68,8 @@ result_root = num_1 ** 0.5 # корінь
 # some_text = '''Hello'''
 
 
-name = "Nick"
-age = 24.7
+#name = "Nick"
+#age = 24.7
 # \n нова строка
 # \t табуляція
 # \ ігнорувати символ
@@ -83,4 +84,31 @@ age = 24.7
 # int(age)
 # float(age)
 
-print(str(age))
+# c = 0
+# b = 0
+# a = 0
+# value_int_1 = 1
+# value_int_2 = 1
+# while c == 0:
+#  try:
+#      value_operator = int(input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \n Your answer: "))
+#
+#  except (NameError, ValueError):
+#      if value_operator != 1 or value_operator != 2 or value_operator != 3 or value_operator != 4:
+#              print ("неправильное число, повторите ввод")
+#      c = 1
+#  else:
+#      value_operator = int(input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \n Your answer: "))
+#  if value_operator == "1":
+#   result = value_int_1 + value_int_2
+#
+#  elif value_operator == "2":
+#   result = value_int_1 - value_int_2
+#
+#  elif value_operator == "3":
+#    result = value_int_1 * value_int_2
+#
+#  elif value_operator == "4":
+#   result = value_int_1 / value_int_2
+# print(result)
+yes_no =input("продолжить /"Yes /", выйти /"No/"")
