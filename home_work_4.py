@@ -59,19 +59,14 @@
 
 ######################################4444444444444444####################################
 
-key1 = 0
-key2 = 0
+s = "rddhhhhhddhr"
+index_1 = s.find("h")
 
-s = input("введите строку: ")
-if s[0] == "h":
-  key1 = 1
-if s[-1] == "h":
-  key2 = 1
-str = s.replace("h", "H")
-if key1 == 1:
-  result = "h" + str[1:]
-  str = result
-if key2 == 1:
-  result = str[:-1] +"h"
-  str = result
-  print(str)
+index_2 = s.rfind("h")
+str_2 = s[index_1+1:index_2]
+str2_2 = str_2.replace("h","H")
+
+str_1 =s[0:index_1+1]
+str_3 = s[index_2:]
+str = str_1 + str2_2 + str_3
+print(str)
