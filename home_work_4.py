@@ -1,3 +1,4 @@
+
 ############################ 1а
 
 #value_str = "Foreverfree"
@@ -70,3 +71,6 @@ str_1 =s[0:index_1+1]
 str_3 = s[index_2:]
 str = str_1 + str2_2 + str_3
 print(str)
+
+
+
