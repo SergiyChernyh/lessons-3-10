@@ -5,11 +5,11 @@
 
 ############################ 1b
 # value_str = "Foreverfree"
-# print(value_str[-1])
+# print(value_str[-2])
 
 ############################ 1c
 # value_str = "Foreverfree"
-# print(value_str[0:4])
+# print(value_str[0:5])
 
 ###########################  1d
 # value_str = "Foreverfree"
